@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+
+
+@import url('https://fonts.googleapis.com/css2? family= Alex+Brush & family= Edredom & family= Courgette & family= Felipa & family= Kaushan+Script & family= Mea+Culpa & family= Syne+Mono & family= Work+Sans:ital,wght@0,100;0,200;1,100 & display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2? family= Alex+Brush & family= Edredom & family= Courgette & family= Dancing+Script & family= Felipa & family= Kaushan+Script & family= Mea+Culpa & family= Syne+Mono & family= Work+Sans:ital,wght@0,100;0,200;1,100 & display=swap');
+
+
+:root { 
+    --font1: Arial, Helvetica, sans-serif;
+    
+    --font2: 'Syne Mono', monoespaçado;
+    
+    --font3: 'Dancing Script', cursiva;}
+ 
+
+
+*{margin: 0px;
+padding: 0px;}
+
+
+html, body {background-color: rgb(151, 147, 147);
+font-family: var(--font1);}
+
+
+header { background-color: black;
+        color: white;
+        text-align: center; }
+
+    header > h1 { padding-top: 50px;
+                font-variant: small-caps;
+            font-family: var(--font2);
+            font-size: 5vw;}
+
+/* text-transforme: colocar todas as fontes em maiúsculas*/
+
+
+    header > p { 
+        padding-top: 5px;
+        padding-bottom: 50px; }
+
+
+  header a, footer  a {color: white;
+        text-decoration: underline;
+        }
+
+
+a:hover {color: rgb(224, 17, 17);}
+
+section { padding-top: 10vh;
+        padding-bottom: 10vh;
+        line-height: 2em;
+        padding-left: 30px;
+        font-family: var(--font3);
+        font-size: 3.5vw;}
+
+
+
+
+section.normal {background-color: white;}
+
+section.imagem { background-color: rgb(63, 59, 59);
+
+color: white; 
+
+box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.349);
+
+background-size: cover;
+
+background-attachment: fixed;}
+
+
+section#img1 { background-image: url(imagens/background001.jpg);
+
+    background-position: right center ;}
+    
+    section#img2 { background-image: url(imagens/background002.jpg);
+    
+        background-position: right center}
+    
+            section > p { padding: 10px;}
+
+section.imagem > p { background-color: rgb(0, 0, 0);
+    
+    background-color: rgba(49, 48, 48, 0.582);
+
+    display: inline-block;
+
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.712);}
+
+footer { background-color: black;
+        text-align: center;
+        color: white;
+        padding: 10px;}
